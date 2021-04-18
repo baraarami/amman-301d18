@@ -16,6 +16,7 @@ let totalClicks = 0;
 const views = [];
 const votes = [];
 
+
 function Product(name) {
   this.name = name;
   this.path = 'img/' + name + '.jpg';
@@ -23,6 +24,7 @@ function Product(name) {
   this.views = 0;
   allProducts.push(this);
 }
+
 
 function makeRandom() {
   return Math.floor(Math.random() * names.length);
